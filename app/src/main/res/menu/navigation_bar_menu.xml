@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <item
+        android:id="@+id/home_bottomNavigationMenu"
+        android:icon="@mipmap/ic_launcher"
+        android:enabled="true"
+        android:title="خانه"
+        app:showAsAction="always|withText"
+        />
+    <item
+        android:id="@+id/search_bottomNavigationMenu"
+        android:icon="@mipmap/ic_launcher"
+        android:enabled="true"
+        android:title="جستجو"
+        app:showAsAction="always|withText"
+        />
+    <item
+        android:id="@+id/profile_bottomNavigationMenu"
+        android:icon="@mipmap/ic_launcher"
+        android:enabled="true"
+        android:title="پروفایل"
+        app:showAsAction="always|withText"
+        />
+    <item
+        android:id="@+id/cart_bottomNavigationMenu"
+        android:icon="@mipmap/ic_launcher"
+        android:enabled="true"
+        android:title="سبد خرید"
+        app:showAsAction="always|withText"
+        />
+
+
+
+
+</menu>
